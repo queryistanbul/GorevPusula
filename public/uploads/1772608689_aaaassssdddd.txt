@@ -1,0 +1,29 @@
+AIzaSyAhkQLkYHMybT3TF00JNhKBpXs2Z8zMCNQ
+
+TaskKey
+
+projects/743493510941
+
+743493510941
+
+curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent" \
+  -H 'Content-Type: application/json' \
+  -H 'X-goog-api-key: AIzaSyAhkQLkYHMybT3TF00JNhKBpXs2Z8zMCNQ' \
+  -X POST \
+  -d '{
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Explain how AI works in a few words"
+          }
+        ]
+      }
+    ]
+  }'
+  
+  AIzaSyAhkQLkYHMybT3TF00JNhKBpXs2Z8zMCNQ
+  
+  gemini-2.5-flash (en yeni ve hızlı)
+Ve diğer Gemini modelleri...
+  

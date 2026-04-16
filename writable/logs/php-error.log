@@ -1,0 +1,196 @@
+[14-Jan-2026 14:28:56 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[HY000]: General error: 1030 Got error 194 "Tablespace is missing for a table" from storage engine InnoDB in C:\xampp\htdocs\task\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\task\public\index.php(28): Database->query('SELECT t.*,\r\n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\task\src\db.php on line 51
+[14-Jan-2026 14:29:06 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[HY000]: General error: 1030 Got error 194 "Tablespace is missing for a table" from storage engine InnoDB in C:\xampp\htdocs\task\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\task\public\index.php(28): Database->query('SELECT t.*,\r\n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\task\src\db.php on line 51
+[14-Jan-2026 16:17:27 Europe/Istanbul] PHP Warning:  Undefined variable $statuses in C:\xampp\htdocs\task\public\task_detail.php on line 191
+[14-Jan-2026 16:17:27 Europe/Istanbul] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\task\public\task_detail.php on line 191
+[14-Jan-2026 16:17:55 Europe/Istanbul] PHP Warning:  Undefined variable $statuses in C:\xampp\htdocs\task\public\task_detail.php on line 191
+[14-Jan-2026 16:17:55 Europe/Istanbul] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\task\public\task_detail.php on line 191
+[14-Jan-2026 16:22:41 Europe/Istanbul] PHP Warning:  Undefined variable $statuses in C:\xampp\htdocs\task\public\task_detail.php on line 191
+[14-Jan-2026 16:22:41 Europe/Istanbul] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\task\public\task_detail.php on line 191
+[15-Jan-2026 14:28:07 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.hashtags' in 'field list' in C:\xampp\htdocs\task\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\task\src\functions.php(76): Database->query('SELECT t.id, t....', Array)
+#1 C:\xampp\htdocs\task\public\index.php(16): get_tasks(Object(Database), Array, false)
+#2 {main}
+  thrown in C:\xampp\htdocs\task\src\db.php on line 51
+[15-Jan-2026 14:28:24 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.hashtags' in 'field list' in C:\xampp\htdocs\task\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\task\src\functions.php(76): Database->query('SELECT t.id, t....', Array)
+#1 C:\xampp\htdocs\task\public\index.php(16): get_tasks(Object(Database), Array, false)
+#2 {main}
+  thrown in C:\xampp\htdocs\task\src\db.php on line 51
+[15-Jan-2026 14:47:49 Europe/Istanbul] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\task\src\functions.php on line 26
+[16-Jan-2026 13:59:34 Europe/Istanbul] PHP Parse error:  syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\a_task\src\partials\footer.php on line 4
+[16-Jan-2026 14:59:48 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'task_php.user_departments' doesn't exist in C:\xampp\htdocs\a_task\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\a_task\public\users.php(108): Database->query('SELECT u.*, d.n...')
+#1 {main}
+  thrown in C:\xampp\htdocs\a_task\src\db.php on line 51
+[16-Jan-2026 15:00:19 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'task_php.user_departments' doesn't exist in C:\xampp\htdocs\a_task\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\a_task\src\auth.php(22): Database->query('SELECT departme...', Array)
+#1 C:\xampp\htdocs\a_task\public\login.php(17): Auth::attempt('admin@company.c...', '123456')
+#2 {main}
+  thrown in C:\xampp\htdocs\a_task\src\db.php on line 51
+[16-Jan-2026 15:00:30 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'task_php.user_departments' doesn't exist in C:\xampp\htdocs\a_task\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\a_task\src\auth.php(22): Database->query('SELECT departme...', Array)
+#1 C:\xampp\htdocs\a_task\public\login.php(17): Auth::attempt('admin@company.c...', '123456')
+#2 {main}
+  thrown in C:\xampp\htdocs\a_task\src\db.php on line 51
+[16-Jan-2026 16:42:42 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'task_php.comments' doesn't exist in C:\xampp\htdocs\a_task\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\a_task\describe_comments.php(4): Database->query('DESCRIBE commen...')
+#1 {main}
+  thrown in C:\xampp\htdocs\a_task\src\db.php on line 51
+[18-Jan-2026 21:15:15 Europe/Istanbul] PHP Warning:  Undefined property: Database::$pdo in C:\xampp\htdocs\a_task\public\users.php on line 61
+[18-Jan-2026 21:15:15 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in C:\xampp\htdocs\a_task\public\users.php:61
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\a_task\public\users.php on line 61
+[21-Jan-2026 14:43:12 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.assigned_to' in 'on clause' in C:\xampp\htdocs\a_task\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\a_task\public\dashboard.php(33): Database->query('\r\n    SELECT u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\a_task\src\db.php on line 51
+[21-Jan-2026 14:43:52 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.assigned_to' in 'on clause' in C:\xampp\htdocs\a_task\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\a_task\public\dashboard.php(33): Database->query('\r\n    SELECT u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\a_task\src\db.php on line 51
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "owner_name" in C:\xampp\htdocs\a_task\public\dashboard.php on line 164
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "priority_color" in C:\xampp\htdocs\a_task\public\dashboard.php on line 181
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "priority_color" in C:\xampp\htdocs\a_task\public\dashboard.php on line 181
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "priority_name" in C:\xampp\htdocs\a_task\public\dashboard.php on line 182
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "owner_name" in C:\xampp\htdocs\a_task\public\dashboard.php on line 164
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "priority_color" in C:\xampp\htdocs\a_task\public\dashboard.php on line 181
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "priority_color" in C:\xampp\htdocs\a_task\public\dashboard.php on line 181
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "priority_name" in C:\xampp\htdocs\a_task\public\dashboard.php on line 182
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "owner_name" in C:\xampp\htdocs\a_task\public\dashboard.php on line 164
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "priority_color" in C:\xampp\htdocs\a_task\public\dashboard.php on line 181
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "priority_color" in C:\xampp\htdocs\a_task\public\dashboard.php on line 181
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "priority_name" in C:\xampp\htdocs\a_task\public\dashboard.php on line 182
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "owner_name" in C:\xampp\htdocs\a_task\public\dashboard.php on line 164
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "priority_color" in C:\xampp\htdocs\a_task\public\dashboard.php on line 181
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "priority_color" in C:\xampp\htdocs\a_task\public\dashboard.php on line 181
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "priority_name" in C:\xampp\htdocs\a_task\public\dashboard.php on line 182
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "owner_name" in C:\xampp\htdocs\a_task\public\dashboard.php on line 164
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "priority_color" in C:\xampp\htdocs\a_task\public\dashboard.php on line 181
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "priority_color" in C:\xampp\htdocs\a_task\public\dashboard.php on line 181
+[21-Jan-2026 14:46:23 Europe/Istanbul] PHP Warning:  Undefined array key "priority_name" in C:\xampp\htdocs\a_task\public\dashboard.php on line 182
+[21-Jan-2026 16:07:53 Europe/Istanbul] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\a_task\public\dashboard.php:174
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\a_task\public\dashboard.php on line 174
+[21-Jan-2026 16:08:04 Europe/Istanbul] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\a_task\public\dashboard.php:174
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\a_task\public\dashboard.php on line 174
+[21-Jan-2026 17:04:19 Europe/Istanbul] Audit log error: Execute failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'task_php.audit_logs' doesn't exist
+[21-Jan-2026 17:04:57 Europe/Istanbul] Audit log error: Execute failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'task_php.audit_logs' doesn't exist
+[21-Jan-2026 17:05:04 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'task_php.audit_logs' doesn't exist in C:\xampp\htdocs\a_task\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\a_task\public\audit_log.php(67): Database->query('SELECT COUNT(*)...', Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\a_task\src\db.php on line 51
+[21-Jan-2026 17:06:17 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'task_php.audit_logs' doesn't exist in C:\xampp\htdocs\a_task\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\a_task\public\audit_log.php(67): Database->query('SELECT COUNT(*)...', Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\a_task\src\db.php on line 51
+[21-Jan-2026 18:07:30 Europe/Istanbul] PHP Warning:  Undefined variable $owner in C:\xampp\htdocs\a_task\public\project_dashboard.php on line 96
+[21-Jan-2026 18:07:30 Europe/Istanbul] PHP Warning:  Undefined variable $owner in C:\xampp\htdocs\a_task\public\project_dashboard.php on line 97
+[21-Jan-2026 18:07:30 Europe/Istanbul] PHP Warning:  Undefined variable $owner in C:\xampp\htdocs\a_task\public\project_dashboard.php on line 99
+[21-Jan-2026 18:07:30 Europe/Istanbul] PHP Warning:  Undefined variable $owner in C:\xampp\htdocs\a_task\public\project_dashboard.php on line 96
+[21-Jan-2026 18:07:30 Europe/Istanbul] PHP Warning:  Undefined variable $owner in C:\xampp\htdocs\a_task\public\project_dashboard.php on line 99
+[26-Jan-2026 16:03:28 Europe/Istanbul] PHP Warning:  Undefined variable $todayPercent in C:\xampp\htdocs\a_task\public\gantt.php on line 282
+[26-Jan-2026 16:03:38 Europe/Istanbul] PHP Warning:  Undefined variable $todayPercent in C:\xampp\htdocs\a_task\public\gantt.php on line 282
+[26-Jan-2026 16:08:57 Europe/Istanbul] PHP Warning:  Undefined variable $todayPercent in C:\xampp\htdocs\a_task\public\gantt.php on line 277
+[28-Jan-2026 13:45:32 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'role' in 'field list' in C:\xampp\htdocs\a_task\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\a_task\public\temp_check_users.php(4): Database->query('SELECT id, full...')
+#1 {main}
+  thrown in C:\xampp\htdocs\a_task\src\db.php on line 51
+[27-Feb-2026 11:17:50 Europe/Istanbul] PHP Warning:  Undefined variable $myTasksOnly in C:\xampp\htdocs\a_task_dev\public\list.php on line 18
+[27-Feb-2026 11:17:50 Europe/Istanbul] PHP Warning:  Undefined variable $myTasksOnly in C:\xampp\htdocs\a_task_dev\public\list.php on line 80
+[27-Feb-2026 11:18:09 Europe/Istanbul] PHP Warning:  Undefined variable $myTasksOnly in C:\xampp\htdocs\a_task_dev\public\list.php on line 18
+[27-Feb-2026 11:18:09 Europe/Istanbul] PHP Warning:  Undefined variable $myTasksOnly in C:\xampp\htdocs\a_task_dev\public\list.php on line 80
+[04-Mar-2026 10:47:16 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'department' in 'field list' in C:\xampp\htdocs\a_task_dev\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\a_task_dev\public\gantt.php(17): Database->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in C:\xampp\htdocs\a_task_dev\src\db.php on line 51
+[04-Mar-2026 10:47:44 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'department' in 'field list' in C:\xampp\htdocs\a_task_dev\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\a_task_dev\public\gantt.php(17): Database->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in C:\xampp\htdocs\a_task_dev\src\db.php on line 51
+[04-Mar-2026 10:49:06 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'department' in 'field list' in C:\xampp\htdocs\a_task_dev\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\a_task_dev\public\gantt.php(17): Database->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in C:\xampp\htdocs\a_task_dev\src\db.php on line 51
+[04-Mar-2026 11:17:15 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'department' in 'field list' in C:\xampp\htdocs\a_task_dev\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\a_task_dev\public\gantt.php(17): Database->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in C:\xampp\htdocs\a_task_dev\src\db.php on line 51
+[04-Mar-2026 11:17:46 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'department' in 'field list' in C:\xampp\htdocs\a_task_dev\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\a_task_dev\public\gantt.php(17): Database->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in C:\xampp\htdocs\a_task_dev\src\db.php on line 51
+[04-Mar-2026 11:20:06 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'department' in 'field list' in C:\xampp\htdocs\a_task_dev\src\db.php:51
+Stack trace:
+#0 C:\xampp\htdocs\a_task_dev\public\gantt.php(17): Database->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in C:\xampp\htdocs\a_task_dev\src\db.php on line 51
+[04-Mar-2026 11:24:25 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:24:25 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:24:25 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:24:25 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:24:25 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:24:25 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:24:25 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:24:25 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:24:25 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:24:25 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:24:25 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:24:25 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:24:25 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:24:25 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:30:28 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\list.php on line 41
+[04-Mar-2026 11:30:28 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\list.php on line 41
+[04-Mar-2026 11:30:28 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\list.php on line 41
+[04-Mar-2026 11:30:28 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\list.php on line 41
+[04-Mar-2026 11:30:28 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\list.php on line 41
+[04-Mar-2026 11:30:28 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\list.php on line 41
+[04-Mar-2026 11:30:28 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\list.php on line 41
+[04-Mar-2026 11:30:28 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\list.php on line 41
+[04-Mar-2026 11:30:28 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\list.php on line 41
+[04-Mar-2026 11:30:28 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\list.php on line 41
+[04-Mar-2026 11:30:28 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\list.php on line 41
+[04-Mar-2026 11:30:28 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\list.php on line 41
+[04-Mar-2026 11:30:28 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\list.php on line 41
+[04-Mar-2026 11:30:28 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\list.php on line 41
+[04-Mar-2026 11:32:23 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:32:23 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:32:23 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:32:23 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:32:23 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:32:23 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:32:23 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:32:23 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:32:23 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:32:23 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:32:23 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:32:23 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:32:23 Europe/Istanbul] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
+[04-Mar-2026 11:32:23 Europe/Istanbul] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\xampp\htdocs\a_task_dev\public\gantt.php on line 28
